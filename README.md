@@ -7,9 +7,9 @@ Set runlist on a test node as follows:
 
 ```
 "run_list": [
-  "recipe[ordertest::test1]",
-  "recipe[ordertest::test2]",
-  "recipe[ordertest]"
+  "recipe[AlternatingExecPOC::test1]",
+  "recipe[AlternatingExecPOC::test2]",
+  "recipe[AlternatingExecPOC]"
 ]
 ```
 
